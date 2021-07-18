@@ -1,6 +1,6 @@
 # Rails Playground
 
-[![Ruby Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop)
+[![Rails Style Guide](https://img.shields.io/badge/code_style-rubocop-brightgreen.svg)](https://github.com/rubocop/rubocop-rails)
 
 
 A place to try out different app setups, gems, patterns and so on.
@@ -23,7 +23,7 @@ git checkout -b <your-new-branch>
 The bare minimum features included in `main` are:
 - [SQLite3](https://github.com/sparklemotion/sqlite3-ruby) driver
 - [RSpec](https://github.com/rspec/rspec-rails) testing framework
-- [Rubocop](https://github.com/rubocop/rubocop) code checker and formatter
+- [Rubocop](https://github.com/rubocop/rubocop) code checker and formatter with [Rails](https://github.com/rubocop/rubocop-rails/) and [RSpec](https://github.com/rubocop/rubocop-rspec) extensions
 - [FactoryBot](https://github.com/thoughtbot/factory_bot_rails) for building test fixtures
 - A basic CI pipeline that runs the test suite and linter
 
