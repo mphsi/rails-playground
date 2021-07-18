@@ -22,6 +22,7 @@ AllCops:
     - config.ru
     - Rakefile
     - !ruby/regexp /old_and_unused\.rb$/
+    - vendor/bundle/**/*
   NewCops: enable
 
 Style/Documentation:
