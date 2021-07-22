@@ -26,6 +26,7 @@ The bare minimum features included in `main` are:
 - [Rubocop](https://github.com/rubocop/rubocop) code checker and formatter with [Rails](https://github.com/rubocop/rubocop-rails/) and [RSpec](https://github.com/rubocop/rubocop-rspec) extensions
 - [FactoryBot](https://github.com/thoughtbot/factory_bot_rails) for building test fixtures
 - [Grape](https://github.com/ruby-grape/grape) for building REST APIs
+- [Dotenv](https://github.com/bkeepers/dotenv) to handle development and test environment variables
 - A basic CI pipeline that runs the test suite and linter
 
 ## Installation
