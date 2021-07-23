@@ -33,11 +33,12 @@ module RailsPlayground
     # config.eager_load_paths << Rails.root.join("extras")
 
     config.generators do |g|
-      g.system_tests  false
-      g.jbuilder      false
-      g.helper        false
-      g.assets        false
-      g.orm           :active_record, primary_key_type: :uuid
+      g.system_tests   false
+      g.jbuilder       false
+      g.helper         false
+      g.assets         false
+      g.orm            :active_record, primary_key_type: :uuid
+      g.test_framework :rspec, view_specs: false, routing_specs: false
     end
   end
 end
