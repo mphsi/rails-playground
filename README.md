@@ -21,12 +21,13 @@ git checkout -b <your-new-branch>
 ## Basic features
 
 The bare minimum features included in `main` are:
-- [SQLite3](https://github.com/sparklemotion/sqlite3-ruby) driver
+- [PG](https://github.com/ged/ruby-pg) driver for PostgreSQL RDBMS
 - [RSpec](https://github.com/rspec/rspec-rails) testing framework
 - [Rubocop](https://github.com/rubocop/rubocop) code checker and formatter with [Rails](https://github.com/rubocop/rubocop-rails/) and [RSpec](https://github.com/rubocop/rubocop-rspec) extensions
 - [FactoryBot](https://github.com/thoughtbot/factory_bot_rails) for building test fixtures
 - [Grape](https://github.com/ruby-grape/grape) for building REST APIs
 - [Dotenv](https://github.com/bkeepers/dotenv) to handle development and test environment variables
+- [Tailwind CSS](https://tailwindcss.com/) utility-first CSS framework
 - A basic CI pipeline that runs the test suite and linter
 
 ## Installation
