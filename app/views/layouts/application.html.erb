@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>RailsPlayground</title>
+    <title>Rails Playground</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,7 +11,37 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <%= yield %>
+  <body class="h-screen flex flex-col">
+    <header class="site-header flex-grow-0">
+      <section class="container mx-auto flex">
+        <span class="site-title flex-grow-0">
+          Playground
+        </span>
+        <nav class="flex-grow">
+        </nav>
+      </section>
+    </header>
+
+    <section class="hero flex-grow-0 hidden">
+      Hero
+    </section>
+
+    <div class="main-content flex-grow flex">
+      <section class="sidebar flex-grow-0 hidden">
+        Sidebar
+      </section>
+
+      <section class="page-content flex-grow">
+        <%= yield %>
+      </section>
+    </div>
+
+    <footer class="footer flex-grow-0">
+      <section class="footer-content flex justify-center">
+        <span class="copyright">
+          Copyright 2021
+        </span>
+      </section>
+    </footer>
   </body>
 </html>
