@@ -6,6 +6,7 @@ module API
       include API::V1::Defaults
 
       mount API::V1::Hello
+      mount API::V1::Products
     end
   end
 end
